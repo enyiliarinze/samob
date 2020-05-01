@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--This is a practice website done by Enyili Arinze.This is how and where he started coding.so please don't steal or pirate this. -->
+<html lang=en-us>
+<head>
+  <title>SAMOB</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style >
+  	table,th,td{
+  		border: 1px solid black;
+  		border-collapse: collapse;
+  		padding: 15px
+  	}
+  	th{
+  		text-align: left;
+  	}
+  	table#t01 {
+    width: 100%; 
+    background-color: red;
+}
+
+	ul {
+		list-style-type: none;
+		background-color: #3c3c3c;
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+	}
+
+	li a {
+		float: left;
+	}
+
+	li a {
+		display: block;
+		color: black;
+		padding: 20px;
+		text-decoration:none;
+		text-align: center;
+	}
+
+	li a hover{
+		background-color: black; 
+	}
+
+	#SAMOBLIMITED {
+		background-color: gray;
+		color:black;
+		padding: 45px;
+		text-align: center;	}
+
+</style>
+
+</head>
+
+<body style="background-image:url('images/robot.jpg')" >
+
+	<ul>
+	<li><a href="#HOME">HOME</a></li>
+	<li><a href="#CATEGORIES">CATEGORIES</a></li>
+	<li><a href="#NEWS">NEWS</a></li>
+	<li><a href="#CONTACT">CONTACT</a></li>
+	<li><a href="#ABOUT">ABOUT</a></li>
+</ul>
+
+
+<h1 id="SAMOBLIMITED">SAMOB LIMITED</h1>
+
+<p style="color:red" style="background-color: white"><strong>WHERE TECH LIVES</strong></p>
+
+<img src="images/th.jpg" alt="keyboard letters" width="1410" height="450">
+
+<a href="https://www.google.com" target="blank"> HISTORY OF SAMOB </a>
+
+
+
+
+
+
+
+
+ 
+
+<table style="width: 70%" id="t01">
+	<caption>FAMILY</caption>
+	<tr>
+		<th>first name</th>
+		<th>last name</th>
+		<th>age</th>
+	</tr>
+
+	<tr>
+		<td>Arinze</td>
+		<td>Enyili</td>
+		<td>16</td>
+	</tr>
+
+	<tr>
+		<td>Jessica</td>
+		<td>Enyili</td>
+		<td>18</td>
+	</tr>
+	
+	<tr>
+		<td>Anita</td>
+		<td>Enyili</td>
+		<td>19</td>
+	</tr>
+</table>
+
+<ol type="1" start="50">
+	<li>american university of nigeria</li>
+	<li>Nigerian university</li>
+	<ol type="A">
+		<li>covenant university</li>
+		<li>babcock university</li>
+		<li>university of nsuka</li>
+	</ol>
+	<li>samob university</li>
+</ol>
+ 
+<dl>
+	<dt>manchester united</dt>
+	<dd>pogba</dd>
+	<dt>chelsea fc</dt>
+	<dd>eden hazard</dd>
+	<dt>manchester city</dt>
+	<dd>kevin de bruyne</dd>
+</dl>
+
+
+
+
+<p id="hello">hello</p>
+<script>
+	document.getElementById("hello").innerHTML="ARINZE";
+</script>
+
+
+
+</body>
+</html>
